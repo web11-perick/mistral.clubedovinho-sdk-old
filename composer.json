@@ -1,0 +1,31 @@
+{
+  "name": "webeleven/mistral.clubedovinho-sdk",
+  "authors": [
+    {
+      "name": "Pedro Erick",
+      "email": "perick2009@yahoo.com.br"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/web11-perick/passport-sdk"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Webeleven\\ClubeDoVinho\\Sdk\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Webeleven\\ClubeDoVinho\\Sdk\\ServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "webeleven/passport-sdk": "~1.6",
+    "illuminate/support": "~5.0"
+  }
+}
